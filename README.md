@@ -27,5 +27,8 @@ Simple rules, but surprisingly fun!
 
 - HTML – game structure  
 - CSS – styling and layout  
-- JavaScript – game logic and interactions  
+- JavaScript – game logic and interactions
+
+Link : letsplayhandcricket.neftly.app
+
 
