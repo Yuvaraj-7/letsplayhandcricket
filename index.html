@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hand Cricket Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hand Cricket Game</h1>
+    </div>
+    <div id="toss-section" class="section">
+      <p>Choose Odd or Even for Toss :</p>
+      <button onclick="startToss('odd')">Odd</button>
+      <button onclick="startToss('even')">Even</button>
+    </div>
+    <div id="bat-bowl-choice" class="section hidden">
+      <p>You won the Toss ! Choose :</p>
+
+      <button onclick="chooseBatBowl('bat')">Bat</button>
+      <button onclick="chooseBatBowl('bowl')">Bowl</button>
+    </div>
+
+    <div class="scores">
+      <div>
+        <h3>Player : <span id="player-score">0</span></h3>
+        <img
+          id="player-hand"
+          class="hand"
+          src="images/hand1.png"
+          alt="Player Hand"
+        />
+      </div>
+      <div>
+        <h3>Computer : <span id="computer-score">0</span></h3>
+        <img
+          id="computer-hand"
+          class="hand"
+          src="images/hand1.png"
+          alt="Computer Hand"
+        />
+      </div>
+    </div>
+
+    <div id="choice-section" class="section hidden">
+      <p>Choose your number :</p>
+      <div class="choices">
+        <button onclick="playerPlays(1)">1</button>
+        <button onclick="playerPlays(2)">2</button>
+        <button onclick="playerPlays(3)">3</button>
+        <button onclick="playerPlays(4)">4</button>
+        <button onclick="playerPlays(5)">5</button>
+        <button onclick="playerPlays(6)">6</button>
+      </div>
+    </div>
+
+    <div id="message" class="section"></div>
+    <div id="target" class="section"></div>
+
+    <img
+      id="firecracker"
+      src="images/firecracker.gif"
+      class="firecracker hidden"
+      alt="Firecracker"
+    />
+
+    <div id="restart-section" class="section hidden">
+      <button onclick="restartGame()">Restart</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
