@@ -29,6 +29,6 @@ Simple rules, but surprisingly fun!
 - CSS – styling and layout  
 - JavaScript – game logic and interactions
 
-Link : letsplayhandcricket.neftly.app
+Link : letsplayhandcricket.netlify.app
 
 
