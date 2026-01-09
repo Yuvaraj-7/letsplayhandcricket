@@ -1,7 +1,7 @@
-# 🏏 Hand Cricket Game
+#  Hand Cricket Game
 
 This is a simple and fun **Hand Cricket Game** built using **HTML, CSS, and JavaScript**.  
-I created this project to practice JavaScript logic and DOM manipulation while recreating a game we all played during school days 😄.
+I created this project to practice JavaScript logic and DOM manipulation while recreating a game we all played during school days .
 
 ---
 
